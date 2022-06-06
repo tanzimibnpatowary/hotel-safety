@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+
+    <fragment
+        android:id="@+id/navigation_hotel_list"
+        android:name="com.tanzim.hotelsafety.police.hotel_list.HotelListFragment"
+        android:label="@string/title_hotel_list"
+        tools:layout="@layout/fragment_hotel_list" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.tanzim.hotelsafety.police.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+
+
+    <fragment
+        android:id="@+id/navigation_booking_list"
+        android:name="com.tanzim.hotelsafety.police.booking.BookingFragment"
+        android:label="@string/title_booking_information"
+        tools:layout="@layout/fragment_booking_information" />
+</navigation>

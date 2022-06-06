@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/room_name"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:text="105"
+            android:gravity="center"
+            android:textSize="@dimen/regular_size_S"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/room_type"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="ডাবল"
+            android:textSize="@dimen/regular_size_S"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/room_facilities"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:text="এসি"
+            android:textSize="@dimen/regular_size_S"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/is_booked"
+            android:layout_width="0dp"
+            android:src="@drawable/ic_baseline_lock_open_24"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+</LinearLayout>

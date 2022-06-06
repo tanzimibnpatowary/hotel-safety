@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Hotel Safety</string>
+    <string name="title_home">হোম</string>
+    <string name="title_hotel_list">হোটেল তালিকা</string>
+    <string name="title_booking_information">বুকিং তথ্য</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">Login failed</string>
+    <string name="add_hotel_title">হোটেল সদস্য পূরণ</string>
+    <string name="add_hotel_name">হোটেল এর নাম</string>
+    <string name="add_hotel_name_bn">হোটেল এর নাম (বাংলা)</string>
+    <string name="add_hotel_name_en">হোটেল এর নাম (ইংরেজি)</string>
+    <string name="add_hotel_location">হোটেল এর ঠিকানা</string>
+    <string name="add_hotel_contact">হোটেল এর নম্বর</string>
+    <string name="add_hotel_btn_submit">সাবমিট</string>
+    <string name="add_hotel_btn_cancel">বাতিল</string>
+    <string name="add_hotel_btn_forward">পরবর্তী</string>
+    <string name="add_hotel_btn_backward">পিছনে</string>
+    <string name="add_hotel_btn_save">সেভ</string>
+    <string name="title_activity_hotel_dashboard">MainActivity</string>
+
+    <string name="nav_profile">প্রোফাইল</string>
+    <string name="nav_guest">গেস্ট</string>
+    <string name="add_guest_title">গেস্ট ফরম</string>
+    <string name="add_guest_name">নাম</string>
+    <string name="add_guest_phone">মোবাইল</string>
+    <string name="add_guest_address">ঠিকানা</string>
+    <string name="add_guest_email">ই-মেইল</string>
+    <string name="add_guest_dob">জন্ম তারিখ</string>
+    <string name="add_guest_nationality">জাতীয়তা</string>
+    <string name="add_guest_arrival">এন্ট্রির তারিখ</string>
+    <string name="add_guest_leave">প্রস্থানের তারিখ</string>
+    <string name="add_guest_room_number">রুম নং</string>
+    <string name="add_guest_picture">গেস্টের ছবি</string>
+    <string name="add_guest_nid">গেস্টের আইডির ছবি</string>
+
+
+    <string name="err_add_guest_name">গেস্ট এর নাম বাধ্যতামূলক</string>
+    <string name="err_add_guest_phone">গেস্ট এর মোবাইল নম্বর বাধ্যতামূলক</string>
+    <string name="err_add_guest_address">গেস্ট এর ঠিকানা বাধ্যতামূলক</string>
+    <string name="err_add_guest_email">গেস্ট এর ই-মেইল বাধ্যতামূলক</string>
+    <string name="err_add_guest_dob">গেস্ট এর জন্মতারিখ বাধ্যতামূলক</string>
+    <string name="err_add_guest_nationality">গেস্ট এর জাতীয়তা বাধ্যতামূলক</string>
+    <string name="err_add_guest_arrival">গেস্ট এর আগমনের তারিখ বাধ্যতামূলক</string>
+    <string name="err_add_guest_leave">গেস্ট এর প্রস্থানের তারিখ বাধ্যতামূলক</string>
+    <string name="err_add_guest_room_number">গেস্ট এর রুম নম্বর বাধ্যতামূলক</string>
+    <string name="err_add_guest_picture">গেস্ট এর ছবি আপলোড বাধ্যতামূলক</string>
+    <string name="err_add_guest_nid">গেস্ট এর এন.আই.ডি আপলোড বাধ্যতামূলক</string>
+
+
+    <string name="hotel_introduction">হোটেল পরিচিতি</string>
+    <string name="hotel_owner_info">মালিক তথ্য</string>
+    <string name="hotel_others_info">অন্যান্য</string>
+
+    <string name="btn_previous">পেছনে</string>
+
+    <string name="profile_title">হোটেলের তথ্য</string>
+    <string name="hotel_name_bn">হোটেলের নাম (বাংলা)</string>
+    <string name="hotel_name_en">Hotel Name (English)</string>
+    <string name="hotel_star">তারকাক্রম</string>
+    <string name="police_station">থানার নাম</string>
+    <string name="hotel_address">হোটেলের ঠিকানা</string>
+    <string name="hotel_mobile">হোটেলের ফোন নম্বর</string>
+    <string name="hotel_email">ই-মেইল</string>
+    <string name="hotel_website">ওয়েবসাইট</string>
+    <string name="hotel_established">প্রতিষ্ঠাকাল</string>
+    <string name="hotel_social">ফেসবুক পেইজ লিংক</string>
+    <string name="hotel_others_social">অন্যান্য সামাজিক যোগাযোগ মাধ্যমের লিংক</string>
+
+    <string name="hotel_license">হোটেল সনদ</string>
+    <string name="hotel_license_no">নিবন্ধন নং</string>
+    <string name="hotel_license_date">নিবন্ধন তারিখ</string>
+    <string name="hotel_trade_license">ট্রেড লাইসেন্স নম্বর</string>
+    <string name="hotel_TIN">TIN নম্বর</string>
+    <string name="hotel_VAT">VAT নম্বর</string>
+    <string name="hotel_BIN">BIN নম্বর</string>
+    <string name="hotel_environment_li_no">পরিবেশ অধিদপ্তরের সনদ</string>
+    <string name="hotel_fire_li_no">ফায়ার সার্ভিস সনদ</string>
+
+    <string name="hotel_owner_information">হোটেল পরিচালনা তথ্য</string>
+    <string name="hotel_owner_section">হোটেল মালিক সংক্রান্ত তথ্য</string>
+    <string name="hotel_owner_number">হোটেল মালিক</string>
+    <string name="hotel_owner_name">নাম</string>
+    <string name="hotel_owner_address">ঠিকানা</string>
+    <string name="hotel_owner_nid">NID নম্বর</string>
+    <string name="hotel_owner_mobile">ফোন নম্বর</string>
+    <string name="hotel_owner_politics">রাজনৈতিক পরিচয়</string>
+
+    <string name="hotel_managing_section">ম্যানেজিং ডাইরেক্টর/সিইও/ডাইরেক্টরের তথ্য</string>
+
+    <string name="accountants_local">দেশি</string>
+    <string name="accountants_foreigners">বিদেশি</string>
+    <string name="accountants_title">ব্যবস্থাপক কি দেশি নাকি বিদেশি?</string>
+    <string name="hotel_owner_foreigners_invest">বিদেশি মালিকানা বিনিয়োগ থাকলে তার বর্ণনা</string>
+
+    <string name="hotel_facilities_employee">সেবা-সমূহ</string>
+    <string name="hotel_single_room_ac">সিঙ্গেল বেড (এসি)</string>
+    <string name="hotel_single_room_non_ac">সিঙ্গেল বেড (ননএসি)</string>
+    <string name="hotel_double_room_ac">ডাবল বেড (এসি)</string>
+    <string name="hotel_double_room_non_ac">ডাবল বেড (ননএসি)</string>
+    <string name="hotel_triple_room_ac">ট্রিপল বেড (এসি)</string>
+    <string name="hotel_triple_room_non_ac">ট্রিপল বেড (ননএসি)</string>
+
+    <string name="hotel_facilities_restaurant">রেষ্টুরেন্ট</string>
+    <string name="hotel_facilities_bar">বার</string>
+    <string name="hotel_facilities_jim">জিম</string>
+    <string name="hotel_facilities_swimming">সুইমিং পুল</string>
+    <string name="hotel_facilities_conference">কনফারেন্স হল</string>
+    <string name="hotel_facilities_spa">স্পা/ম্যাসাজ সেন্টার</string>
+    <string name="yes">হাঁ</string>
+    <string name="no">না</string>
+    <string name="add">নতুন যুক্ত করুন</string>
+
+
+    <string name="hotel_employee_list">কর্মকর্তা ও কর্মচারী</string>
+    <string name="hotel_officer_count">কর্মকর্তা সংখ্যা</string>
+    <string name="hotel_employee_count">কর্মচারী সংখ্যা</string>
+    <string name="hotel_foreigners_employee">বিদেশী কর্মকর্তা ও কর্মচারীদের তথ্য</string>
+    <string name="hotel_foreigners_name">নাম</string>
+    <string name="hotel_foreigners_address">বসবাসের ঠিকানা</string>
+    <string name="hotel_foreigners_mobile">ফোন নম্বর</string>
+    <string name="hotel_foreigners_email">ই-মেইল</string>
+    <string name="hotel_foreigners_passport">পাসপোর্ট নম্বর</string>
+    <string name="hotel_foreigners_passport_issue">পাসপোর্ট ইস্যু</string>
+    <string name="hotel_foreigners_passport_expired">পাসপোর্ট মেয়াদ উর্ত্তীণ</string>
+    <string name="hotel_foreigners_visa">ভিসার ধরণ</string>
+    <string name="hotel_foreigners_visa_expired">ভিসার মেয়াদ উর্ত্তীণ</string>
+    <string name="hotel_foreigners_security_papers">নিরাপত্তা ছাড়পত্র</string>
+
+    <string name="hotel_others_information">অন্যান্য তথ্য</string>
+    <string name="hotel_others_cc_camera">সিসি ক্যামেরা সংখ্য</string>
+    <string name="hotel_others_parking">পার্কিং ব্যবস্থা আছে কি?</string>
+    <string name="hotel_others_fire_outdoor">জরুরি বহির্গমন পথ আছে কি?</string>
+    <string name="hotel_others_fire_stop">অগ্নিনির্বাপন ব্যবস্থা আছে কি?</string>
+    <string name="hotel_others_generator">নিজস্ব জেনারেটর আছে কি?</string>
+    <string name="hotel_others_member_society">হোটেল মালিক কি সমিতির সদস্য কিনা?</string>
+    <string name="hotel_others_reputation">হোটেল এর সুনাম ও দূর্নাম</string>
+    <string name="hotel_others_information_data">অন্যান্য গুরুত্বপূর্ণ তথ্য</string>
+    <string name="hotel_others_comment">মন্তব্য</string>
+
+
+    <string name="print_all_field_required">সবগুলো ঘর পূরণ করুন।</string>
+
+    <string name="add_room">নতুন রুম</string>
+    <string name="booked_room">বুকড রুম</string>
+    <string name="all_room">সকল রুম</string>
+    <string name="unbooked">ফাঁকা রুম সমূহ</string>
+    <string name="select_one">পছন্দ করুন</string>
+    <array name="bed_category_ac_non_ac">
+        <item>এসি</item>
+        <item>নন-এসি</item>
+    </array>
+    <string name="bed_ac">এসি</string>
+    <string name="bed_non_ac">নন-এসি</string>
+    <string name="bed_single">সিঙ্গেল</string>
+    <string name="bed_double">ডাবল</string>
+    <string name="bed_triple">ট্রিপল</string>
+    <string name="room_no">রুম নং</string>
+    <string name="room_ac_non_ac">এসি/ননএসি</string>
+    <string name="room_room_category">ধরণ</string>
+    <string name="room_room_lock_title">ফাঁকা কি?</string>
+
+    <string name="add_room_title">নতুন রুম পূরণ</string>
+
+    <string name="add_room_number_required">নতুন রুম নং আব্যশক</string>
+    <string name="select_required">যে কোন একটি পছন্দ করুন</string>
+    <string name="required">এই ফিল্ড পূরণ আবশ্যক</string>
+
+    <string name="all_room_title">সকল রুম</string>
+    <string name="all_booked_title">সকল বুকড রুম</string>
+    <string name="title_activity_profile__dashboard">Profile_Dashboard</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string name="update">আপডেট</string>
+    <string name="profile_information">ব্যক্তিগত তথ্য</string>
+    <string name="history_information">সকল হিস্টোরি</string>
+    <string name="hotel_title">হোটেল তথ্য</string>
+
+    <string name="search_hint_room">রুম নং দিয়ে সার্চ করুন</string>
+</resources>

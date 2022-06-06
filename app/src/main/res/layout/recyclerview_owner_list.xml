@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/margin_top_edit_box"
+    android:layout_marginRight="@dimen/margin_top_edit_box"
+    android:layout_marginTop="@dimen/margin_top_edit_box"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#1E88E5"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="0dp"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/name"
+                    android:text="তানজিম"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="01586556686"
+                    android:id="@+id/mobile"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="20008415854100004"
+                    android:id="@+id/nid"
+                    android:layout_width="0dp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="AL"
+                    android:id="@+id/politics"
+                    android:layout_width="0dp"
+                    android:textColor="@color/white"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/address"
+                    android:text="বায়েজিদ নগর আবাসিক, নাসিরাবাদ, চট্টগ্রাম।"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/appbar_padding_top"
+            android:weightSum="3"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/edit_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_edit_24"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:layout_height="2dp"
+                android:background="@drawable/design_circle"/>
+
+            <ImageView
+                android:id="@+id/delete_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_delete_forever_24"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

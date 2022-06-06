@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tanzim.hotelsafety">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".police.hotel_list.Hotel_Details"
+            android:exported="true">
+
+
+
+        </activity>
+        <activity android:name=".hotel_user.guest.Guest_History" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_owner.Crud_Owner_Page" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_owner.HotelOwnerList" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_owner.Edit_Owner_Info" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_director.HotelDirectorList" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_director.Crud_Director_Page" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_director.Edit_Director_Info" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_employee.HotelEmployeeList" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_employee.Crud_Employee_Page" />
+        <activity android:name=".hotel_user.profile.pages.crud_hotel_employee.Edit_Employee_Info" />
+        <activity
+            android:name=".hotel_user.profile.Profile_Dashboard"
+            android:exported="true"
+            android:label="@string/title_activity_profile__dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hotel_user.hotel_home.Booked_Room_List"
+            android:exported="true" />
+        <activity
+            android:name=".hotel_user.hotel_home.All_Room_List"
+            android:exported="true" />
+        <activity android:name=".Dynamic" />
+        <activity
+            android:name=".hotel_user.HotelDashboard"
+            android:exported="true"
+            android:label="@string/title_activity_hotel_dashboard"></activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+
+        </activity>
+    </application>
+
+</manifest>

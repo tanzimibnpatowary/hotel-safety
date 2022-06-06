@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".hotel_user.hotel_home.All_Room_List">
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/main_section"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/regular_size_M"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="@string/all_room"
+            android:layout_margin="@dimen/margin_top_edit_box"/>
+
+        <SearchView
+            android:layout_marginRight="@dimen/margin_left_right"
+            android:layout_marginLeft="@dimen/margin_left_right"
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="@string/search_hint_room"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginRight="@dimen/margin_left_right"
+            android:layout_marginLeft="@dimen/margin_left_right"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include
+        android:visibility="gone"
+        android:id="@+id/no_data_msg"
+        layout="@layout/no_data_available"/>
+
+</LinearLayout>
